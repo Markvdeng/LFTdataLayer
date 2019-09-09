@@ -4,16 +4,17 @@ window.dataLayer.push({
   ecommerce: {
     detail: {
       actionField: {
-        list: 'Search Results'
+        list: 'Fixtures page'
       },
       products: [{
-        id: 'product_id',
-        name: 'MY PRODUCT',
-        category: 'guides/google-tag-manager/enhanced-ecommerce',
-        variant: 'Text',
-        brand: 'SIMO AHAVA',
+        id: 'match_id',
+        name: 'Liverpool v Newcastle United',
+        category: 'English Premier League',
+        brand: 'Liverpool',
         dimension3: 'Ecommerce',
         metric5: 12,
         metric6: 1002
       }]
     }
+  }
+});
