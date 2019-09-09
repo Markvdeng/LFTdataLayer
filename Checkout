@@ -4,7 +4,8 @@ window.dataLayer.push({
   ecommerce: {
     checkout: {
       actionField: {
-        step: 1
+        step: 1,
+        option: 'Collection'
       },
       products: [{
         id: 'match_id',
