@@ -1,23 +1,21 @@
-dataLayer.push({
-   "ecommerce": {
-     "currencyCode":"GBP",
-     "impressions": [    //the array of products present within the listing
-      {
-         "id":"9bf1d",    //internal id or SKU
-         "name":"Boss T-Shirt",    //you should have at least Name and ID set up
-         "price":"44.00",   //use only xxxx.xx formatting
-         "brand":"Bvlgari", //manufacturer or designer
-         "category":"Men/Clothing/T-Shirts", //can be hierarchical up to 5 levels; separated by"/"
-         "position":0,    //position within the list
-         "variant":"Blue", //optional,if you need more differentiation
-         "list":"Category page"    //custom name for the list of products     
-      },
-      {   //second product
-         "id":"j6be7",
-         "name":"Comverges T-Shirt",
-         "price":"32.45",
-         "brand":"Comverges",
-         "category":"T-Shirts",
-         "position":1,
-         "list":"Category page"
-      },
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  event: 'eec.impressionView',
+  ecommerce: {
+    impressions: [{
+      id: 'match_id_1',
+      name: 'Manchester United v Arsenal',
+      category: 'guides/google-tag-manager/javascript',
+      list: 'Category Page',
+      brand: 'Manchester United',
+      position: 1
+    },{
+      id: 'match_id_2',
+      name: 'Liverpool v Leicester City',
+      category: 'English Premier League',
+      list: 'Category Page',
+      brand: 'Liverpool',
+      position: 2
+    }]
+  }
+});      
