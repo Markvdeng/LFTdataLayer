@@ -4,22 +4,18 @@ window.dataLayer.push({
   ecommerce: {
     checkout: {
       actionField: {
-        step: 1,
-        option: 'Collection'
+        step: 1
       },
       products: [{
-        id: 'match_id',
+        id: 'match_id_1',
         name: 'Liverpool v Newcastle United',
-        category: 'English Premier League',
+        category: 'English Premier League/Liverpool',
         brand: 'Liverpool',
-        quantity: 2,
-        dimension3: 'Ecommerce',
-        metric5: 12,
-        metric6: 1002
+        quantity: 2
       },{
-        id: 'another_match_id',
+        id: 'match_id_2',
         name: 'Liverpool v FC Red Bull Salzburg',
-        category: 'Champions League',
+        category: 'Champions League/Liverpool',
         brand: 'Liverpool',
         quantity: 1
       }]
