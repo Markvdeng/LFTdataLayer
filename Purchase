@@ -2,33 +2,30 @@ window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
   event: 'eec.purchase',
   ecommerce: {
-    currencyCode: 'EUR',
+    currencyCode: 'GBP',
     purchase: {
       actionField: {
-        id: 'transaction_id',
+        id: 'transaction_id', //So NO Match ID
         affiliation: 'LFT',
         revenue: '303.49',
         tax: '67.72',
-        shipping: '0.00',
+        shipping: '10.00',
         coupon: 'DISCOUNTCODE'
       },
       products: [{
-        id: 'match_id',
+        id: 'match_id_1',
         name: 'Liverpool v Newcastle United',
-        category: 'English Premier League',
+        category: 'English Premier League/Liverpool',
         brand: 'Liverpool',
         quantity: 2,
-        price: '112.88',
-        dimension3: 'Ecommerce',
-        metric5: 12,
-        metric6: 1002
+        price: '112.88' //The price of one (1)! Item
       },{
-        id: 'another_match_id',
+        id: 'match_id_2',
         name: 'Liverpool v Red Bull Salzburg',
-        category: 'Champions League',
+        category: 'Champions League/Liverpool',
         brand: 'Liverpool',
-        price: '55.00',
-        quantity: 3
+        quantity: 3,
+        price: '55.00' //The price of one (1)! Item
       }]
     }
   }
