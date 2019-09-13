@@ -5,14 +5,14 @@ window.dataLayer.push({
     impressions: [{
       id: 'match_id_1',
       name: 'Liverpool v Leicester City',
-      category: 'English Premier League / Liverpool',
+      category: 'English Premier League/Liverpool',
       list: 'Teams Page',
       brand: 'Liverpool',
       position: 1
     },{
       id: 'match_id_2',
       name: 'Manchester United v Liverpool',
-      category: 'English Premier League / Liverpool',
+      category: 'English Premier League/Liverpool',
       list: 'Teams Page',
       brand: 'Manchester United',
       position: 2
