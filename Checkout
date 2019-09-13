@@ -21,3 +21,15 @@ window.dataLayer.push({
       }]
     }
   }
+  
+window.dataLayer.push({
+  event: 'eec.checkout_option',
+  ecommerce: {
+    checkout_option: {
+      actionField: {
+        step: 1,
+        option: 'Collection Point'
+      }
+    }
+  }
+})
