@@ -12,7 +12,7 @@ window.dataLayer.push({
     },{
       id: 'match_id_2',
       name: 'Manchester United v Liverpool',
-      category: 'English Premier League/Liverpool',
+      category: 'English Premier League',
       list: 'Category Page',
       brand: 'Manchester United',
       position: 2
