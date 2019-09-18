@@ -13,12 +13,6 @@ window.dataLayer.push({
         category: 'English Premier League/Liverpool',
         brand: 'Liverpool',
         quantity: 2
-      },{
-        id: 'match_id_2',
-        name: 'Liverpool v FC Red Bull Salzburg',
-        category: 'Champions League/Liverpool',
-        brand: 'Liverpool',
-        quantity: 1
       }]
     }
   }
