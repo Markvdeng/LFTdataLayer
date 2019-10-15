@@ -3,9 +3,6 @@ window.dataLayer.push({
   event: 'eec.detail',
   ecommerce: {
     detail: {
-      actionField: {
-        list: 'Fixture Page'
-      },
       products: [{
         id: 'match_id_1',
         name: 'Liverpool v Newcastle United',
