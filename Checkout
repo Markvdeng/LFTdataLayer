@@ -10,7 +10,7 @@ window.dataLayer.push({
       products: [{
         id: 'match_id_1',
         name: 'Liverpool v Newcastle United',
-        category: 'English Premier League/Liverpool',
+        category: 'English Premier League',
         brand: 'Liverpool',
         quantity: 2
       }]
