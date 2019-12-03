@@ -19,3 +19,21 @@ window.dataLayer.push({
     }]
   }
 })
+
+window.dataLayer.push({
+  event: 'eec.impressionClick',
+  ecommerce: {
+    click: {
+      actionField: {
+        list: 'Stadium Page'
+      },
+      products: [{
+        id: 'match_id_1',
+        name: 'Liverpool v Leicester City',
+        category: 'English Premier League',
+        brand: 'Liverpool',
+        position: 1
+      }]
+    }
+  }
+});
