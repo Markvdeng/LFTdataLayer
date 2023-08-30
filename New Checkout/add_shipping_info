@@ -1,0 +1,19 @@
+// GA4 reference for recommended events: https://developers.google.com/analytics/devguides/collection/ga4/reference/events?client_type=gtag#add_shipping_info
+
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  event: 'begin_checkout',
+  ecommerce: {
+      currency: 'EUR',
+      value: 233.00,
+      coupon: 'automated_email',
+      items: [{
+        item_id: 'match_id_1',
+        item_name: 'Liverpool v Newcastle United',
+        item_category: 'English Premier League',
+        item_brand: 'Liverpool',
+        quantity: 2,
+        price: 159.00
+      }]
+    }
+});
