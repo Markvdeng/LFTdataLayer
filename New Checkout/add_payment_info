@@ -4,7 +4,7 @@ window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
   event: 'add_payment_info',
   ecommerce: {
-      payment_type: 'Creditcard'
+      payment_type: 'Credit Card'
       currency: 'EUR',
       value: 233.00,
       coupon: 'automated_email',
