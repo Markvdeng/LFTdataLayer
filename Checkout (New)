@@ -1,0 +1,19 @@
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  event: 'eec.checkout',
+  ecommerce: {
+    checkout: {
+      actionField: {
+        step: 1,
+        option: 'Collection Point'
+      },
+      products: [{
+        id: 'match_id_1',
+        name: 'Liverpool v Newcastle United',
+        category: 'English Premier League',
+        brand: 'Liverpool',
+        quantity: 2
+      }]
+    }
+  }
+});
