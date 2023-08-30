@@ -5,6 +5,9 @@ window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
   event: 'begin_checkout',
   ecommerce: {
+      currency: 'EUR',
+      value: 233.00,
+      coupon: 'automated_email',
       items: [{
         item_id: 'match_id_1',
         item_name: 'Liverpool v Newcastle United',
