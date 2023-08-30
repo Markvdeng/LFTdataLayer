@@ -2,8 +2,9 @@
 
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
-  event: 'begin_checkout',
+  event: 'add_shipping_info',
   ecommerce: {
+      shipping_tier: 'UK Special Delivery Mon-Fri Pre-1pm'
       currency: 'EUR',
       value: 233.00,
       coupon: 'automated_email',
