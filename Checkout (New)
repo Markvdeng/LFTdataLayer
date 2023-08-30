@@ -13,7 +13,7 @@ window.dataLayer.push({
         item_name: 'Liverpool v Newcastle United',
         item_category: 'English Premier League',
         item_brand: 'Liverpool',
-        quantity: 2
+        quantity: 2,
         price: 159.00
       }]
     }
