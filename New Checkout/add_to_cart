@@ -1,5 +1,5 @@
-// GA4 reference for recommended events: https://developers.google.com/analytics/devguides/collection/ga4/reference/events?client_type=gtag#begin_checkout
-// GA4 reference for ecommerce events: https://developers.google.com/analytics/devguides/collection/ga4/ecommerce?client_type=gtm#measure_a_checkout
+// GA4 reference for recommended events: https://developers.google.com/analytics/devguides/collection/ga4/reference/events?client_type=gtag#add_to_cart
+// GA4 reference for ecommerce events: https://developers.google.com/analytics/devguides/collection/ga4/ecommerce?client_type=gtag#add_or_remove_an_item_from_a_shopping_cart
 
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
