@@ -6,7 +6,7 @@ window.dataLayer.push({
   event: 'add_to_cart',
   ecommerce: {
       currency: 'EUR',
-      value: 233.00,
+      value: 318.00,
       coupon: 'automated_email',
       items: [{
         item_id: 'match_id_1',
