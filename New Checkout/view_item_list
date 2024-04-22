@@ -5,7 +5,6 @@ window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
   event: 'view_item_list',
   ecommerce: {
-      currency: 'GBP',
       items: [{
         item_id: 'match_id_1',
         item_name: 'Liverpool v Newcastle United',
