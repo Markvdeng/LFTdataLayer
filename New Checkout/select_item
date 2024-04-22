@@ -1,17 +1,17 @@
+// GA4 reference for recommended events: https://developers.google.com/analytics/devguides/collection/ga4/reference/events?client_type=gtag#select_item
+// GA4 reference for ecommerce events: https://developers.google.com/analytics/devguides/collection/ga4/ecommerce?client_type=gtag#view_item_details
+
+window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
-  event: 'eec.impressionClick',
+  event: 'select_item',
   ecommerce: {
-    click: {
-      actionField: {
-        list: 'Stadium Page'
-      },
-      products: [{
-        id: 'match_id_1',
-        name: 'Liverpool v Leicester City',
-        category: 'English Premier League',
-        brand: 'Liverpool',
-        position: 1
+      items: [{
+        item_id: 'match_id_1',
+        item_name: 'Liverpool v Newcastle United',
+        item_category: 'English Premier League',
+        item_brand: 'Liverpool',
+        item_list_name: 'Team Page',
+        index: 1 //The original index/position of the item in the list.
       }]
     }
-  }
 });
