@@ -1,0 +1,19 @@
+// GA4 reference for recommended events: https://developers.google.com/analytics/devguides/collection/ga4/reference/events?client_type=gtag#view_item
+// GA4 reference for ecommerce events: https://developers.google.com/analytics/devguides/collection/ga4/ecommerce?client_type=gtag#view_item_details
+
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  event: 'view_item_list',
+  ecommerce: {
+      currency: 'GBP',
+      value: 159.00, //lowest price available
+      items: [{
+        item_id: 'match_id_1',
+        item_name: 'Liverpool v Newcastle United',
+        item_category: 'English Premier League',
+        item_brand: 'Liverpool',
+        quantity: 1,
+        price: 159.00 //lowest price available
+      }]
+    }
+});
