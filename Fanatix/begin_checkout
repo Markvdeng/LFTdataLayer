@@ -2,27 +2,27 @@ window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
   event: 'begin_checkout',
   ecommerce: {
-    value: 820.00, //price * quantity
+    value: 820.00, //price * quantity for every item
     currency: 'USD',
-    coupon: 'SUMMER_SALE',
+    coupon: 'SUMMER_SALE', //coupon code used
     items: [
       {
         item_id: '1593233', //ID of the event
-        item_name: 'Taylor Swift World Tour',
-        price: 250.00,
+        item_name: 'Taylor Swift World Tour', //name of the event
+        price: 250.00, //price for 1 ticket
         quantity: 2,
         item_brand: 'Taylor Swift', //Performer or home playing team
-        item_variant: 'Standard', //We could use the ticket type here
+        item_variant: 'Standard', //We could use the ticket type /name here
         item_category: 'Formula 1', //Category of the event
         item_category2: 'Dutch Grand Prix' //Subcategory of the event, can add more subcategories if required e.g. item_category3 etc.
       },
       {
         item_id: '14284894', //ID of the event
-        item_name: 'Arsenal vs Manchester United',
-        price: 250.00,
+        item_name: 'Arsenal vs Manchester United', //name of the event
+        price: 250.00, //price for 1 ticket
         quantity: 1,
         item_brand: 'Arsenal', //Performer or home playing team
-        item_variant: 'Hospitality', //We could use the ticket type here
+        item_variant: 'Hospitality', //We could use the ticket type /name here
         item_category: 'Premier League' //Category of the event
       }
     ]
