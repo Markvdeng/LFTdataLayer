@@ -1,6 +1,7 @@
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
   event: 'purchase',
+  new_customer: 'true', // or false
   email: 'test@test.nl',
   phone_number: '31612345678',
   ecommerce: {
