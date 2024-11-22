@@ -13,10 +13,10 @@ window.dataLayer.push({
         item_category3: 'Featured Event', // Position or additional context
         item_category4: '2024-12-01',   // Date of the event/item
         item_category5: 'Stadium X',    // Location of the event/item
-        item_variant: 'Hospitality'
+        item_variant: 'Hospitality',
         item_brand: 'Liverpool',
         item_list_name: 'Team Page', // Name of the list the item belongs to
-        index: 1 //The original index/position of the item in the list.
+        index: 1, //The original index/position of the item in the list.
         price: 150.00,                  // Price of the item
         quantity: 1                     // Quantity (usually 1 for a selection)
       }]
