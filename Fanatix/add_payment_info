@@ -12,8 +12,8 @@ window.dataLayer.push({
         item_id: 'match_id_1',
         item_name: 'Liverpool v Newcastle United',
         item_category: 'English Premier League',
-        item_category2: 'For some events' //see purchase
-        item_variant: 'Hospitality'
+        item_category2: 'For some events', //see purchase
+        item_variant: 'Hospitality',
         item_brand: 'Liverpool',
         quantity: 2,
         price: 159.00
