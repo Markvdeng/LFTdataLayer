@@ -1,6 +1,8 @@
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
   event: 'purchase',
+  email: 'test@test.nl',
+  phone_number: '31612345678',
   ecommerce: {
     transaction_id: 'ORDER12345',      // Unique transaction ID
     affiliation: 'Fanatix',
