@@ -12,7 +12,7 @@ window.dataLayer.push({
         item_id: '12553525',
         item_name: 'Liverpool v Newcastle United',
         item_category: 'English Premier League',
-        item_category2: 'For some type of events'
+        item_category2: 'For some type of events',
         item_brand: 'Liverpool',
         item_variant: 'Hospitality'
         quantity: 2,
