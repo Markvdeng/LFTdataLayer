@@ -4,8 +4,6 @@ window.dataLayer.push({
   ecommerce: {
     value: 820.00, //price * quantity + shipping + tax
     currency: 'USD',
-    tax: 50.00,
-    shipping: 20.00,
     coupon: 'SUMMER_SALE',
     items: [
       {
