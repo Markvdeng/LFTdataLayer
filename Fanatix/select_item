@@ -1,0 +1,24 @@
+// GA4 reference for recommended events: https://developers.google.com/analytics/devguides/collection/ga4/reference/events?client_type=gtag#select_item
+// GA4 reference for ecommerce events: https://developers.google.com/analytics/devguides/collection/ga4/ecommerce?client_type=gtag#select_an_item_from_a_list
+
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  event: 'select_item',
+  ecommerce: {
+      items: [{
+        item_id: '1414134134',
+        item_name: 'Liverpool v Newcastle United',
+        item_category: 'English Premier League', 
+        item_category2: 'Event Page',   // Subcategory (e.g., header, item page, etc.)
+        item_category3: 'Featured Event', // Position or additional context
+        item_category4: '2024-12-01',   // Date of the event/item
+        item_category5: 'Stadium X',    // Location of the event/item
+        item_variant: 'Hospitality'
+        item_brand: 'Liverpool',
+        item_list_name: 'Team Page', // Name of the list the item belongs to
+        index: 1 //The original index/position of the item in the list.
+        price: 150.00,                  // Price of the item
+        quantity: 1                     // Quantity (usually 1 for a selection)
+      }]
+    }
+});
