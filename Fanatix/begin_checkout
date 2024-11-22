@@ -2,7 +2,7 @@ window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
   event: 'begin_checkout',
   ecommerce: {
-    value: 820.00, //price * quantity + shipping + tax
+    value: 820.00, //price * quantity
     currency: 'USD',
     coupon: 'SUMMER_SALE',
     items: [
