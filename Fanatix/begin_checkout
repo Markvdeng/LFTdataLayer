@@ -1,3 +1,6 @@
+// GA4 reference for recommended events: https://developers.google.com/analytics/devguides/collection/ga4/reference/events?client_type=gtag#begin_checkout
+// GA4 reference for ecommerce events: https://developers.google.com/analytics/devguides/collection/ga4/ecommerce?client_type=gtm#measure_a_checkout
+
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
   event: 'begin_checkout',
