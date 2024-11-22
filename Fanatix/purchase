@@ -1,1 +1,32 @@
-
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  event: 'purchase',
+  ecommerce: {
+    transaction_id: 'ORDER12345',      // Unique transaction ID
+    affiliation: 'Fanatix',
+    value: 820.00, //price * quantity + shipping + tax
+    currency: 'USD',
+    tax: 50.00,
+    shipping: 20.00,
+    coupon: 'SUMMER_SALE',
+    items: [
+      {
+        item_id: '1593233', //ID of the event
+        item_name: 'Taylor Swift World Tour',
+        price: 250.00,
+        quantity: 2
+        item_brand: 'Taylor Swift' //Performer or home playing team
+        item_category: 'Formula 1' //Category of the event
+        item_category2: 'Dutch Grand Prix' //Subcategory of the event, can add more subcategories if required e.g. item_category3 etc.
+      },
+      {
+        item_id: '14284894', //ID of the event
+        item_name: 'Arsenal vs Manchester United',
+        price: 250.00,
+        quantity: 1
+        item_brand: 'Arsenal' //Performer or home playing team
+        item_category: 'Premier League' //Category of the event
+      }
+    ]
+  }
+});"
