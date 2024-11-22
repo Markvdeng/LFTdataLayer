@@ -1,0 +1,34 @@
+// GA4 reference for recommended events: https://developers.google.com/analytics/devguides/collection/ga4/reference/events?client_type=gtag#view_item_list
+// GA4 reference for ecommerce events: https://developers.google.com/analytics/devguides/collection/ga4/ecommerce?client_type=gtm#select_an_item_from_a_list
+
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  event: 'view_item_list',
+  ecommerce: {
+      items: [{
+        item_id: 'match_id_1',
+        item_name: 'Liverpool v Newcastle United',
+        item_category: 'English Premier League',
+        item_category2: 'Type of place', // type of place (header, item_page or other)
+        item_category3: 'index', // number place in order of items in carousel
+        item_category4: 'event_date', //date of event
+        item_category5: 'event_location', //event_location
+        item_brand: 'Liverpool',
+        item_list_name: 'Team Page', // name page/section id where user discover list items
+        item_variant: 'Hospitality',
+        index: 1 //The index/position of the item in the list
+      },{
+        item_id: 'match_id_1',
+        item_name: 'Liverpool v Crystal Palace',
+        item_category: 'English Premier League',
+        item_category2: 'Type of place"", // type of place (header, item_page or other)
+        item_category3: 'index', // number place in order of items in carousel
+        item_category4: 'event_date', //date of event
+        item_category5: 'event_location', //event_location
+        item_brand: 'Liverpool',
+        item_list_name: 'Team Page',  // name page/section id where user discover list items
+        item_variant: 'Hospitality',
+        index: 2 //The index/position of the item in the list
+      }]
+    }
+});
